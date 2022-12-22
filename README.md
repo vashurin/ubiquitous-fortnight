@@ -1,6 +1,6 @@
 # Test
 
-# Run project
+Run project
 ```
 node server.js
 ```
