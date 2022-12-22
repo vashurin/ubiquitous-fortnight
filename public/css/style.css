@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   /* border-collapse: collapse;*/
+}
+.wrapper {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1600px;
+    font-size: 14px;
+}
+th, td {
+    border: none;
+    border-bottom: 1px dotted #aaa;
+    border-right: 1px dotted #aaa;
+    padding: 10px;
+}
+td:first-child {
+    font-weight: bold;
+}
+th:last-child, td:last-child {
+    border-right: none
+}
+th {
+    cursor: pointer;
+    padding-left: 20px;
+    text-align: center;
+}
+table tr:hover td {
+    background-color: #eee;
+}
+.activeASC {
+    background: url(../i/ico-down.png) 0 3px no-repeat;
+}
+.activeDESC {
+    background: url(../i/ico-up.png)  0 3px no-repeat;
+}
+.dateSelect {
+    font-size: 20px;
+    margin: 0 50px 0 0;
+}
+.dateWrapper {
+    margin: 20px 0;
+}
+.chartWrapper {
+    width: 100%;
+    padding: 20px 0 10px 0;
+    margin: 0 0 30px 0;
+    position: relative;
+    overflow: hidden;
+    overflow-x: auto;
+}
+#selectChartData {
+    font-size: 20px;
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+}
+#chart {
+    height: 500px;
+    position: relative;
+    white-space: nowrap;
+    line-height: 450px;
+}
+.chartBlock {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    width: 100px;
+    height: 400px;
+    background-color: rgba(37, 230, 19, 0.5);
+    border: 1px solid #0d0;
+    vertical-align: bottom;
+}
+
+.chartBlockDate,
+.chartBlockValue {
+    position: absolute;
+    font-weight: bold;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 110%;
+}
+
+.chartBlockDate {    
+    bottom: -25px;
+}
+
+.chartBlockValue {
+    top: -25px;
+}
+
+.tableWrapper {
+    padding: 20px 0 0 0;
+}
